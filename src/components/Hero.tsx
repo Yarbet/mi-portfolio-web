@@ -29,7 +29,7 @@ const Hero = () => {
     const downloadCV = () => {
     // Crear un enlace temporal para descargar el archivo
     const link = document.createElement('a');
-    link.href = '/mis_imágenes/yarbet yanac CV - 2025.pdf'; // Ruta donde debes subir tu CV
+    link.href = '/public/yarbet yanac CV - 2025.pdf'; // Ruta donde debes subir tu CV
     link.download = 'cv_Yarbet_Yanac.pdf'; // Nombre que tendrá el archivo descargado
     document.body.appendChild(link);
     link.click();
@@ -133,7 +133,7 @@ const Hero = () => {
               <div className="absolute inset-0 bg-portfolio-text-pink rounded-full opacity-20 blur-xl"></div>
                <Avatar className="relative w-full h-full border-4 border-portfolio-avatar-border">
                 <AvatarImage 
-                  src="/mis_imágenes/foto de perfil.jpg" 
+                  src="/public/foto-perfil.jpg" 
                   alt="Foto de perfil"
                   className="object-contain w-full h-full"
                 />

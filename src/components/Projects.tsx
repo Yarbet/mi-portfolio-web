@@ -6,7 +6,7 @@ const Projects = () => {
     {
             title: 'E-commerce para negocios gastronómicos',
       description: 'Desarrollo completo de sitios web para dos marcas gastronómicas con funcionalidades e-commerce: catálogo dinámico, pagos online y diseño personalizado con enfoque en UX y mobile-first. Implementado con WordPress, Elementor y WooCommerce, asegurando escalabilidad, autogestión y alta performance..',
-      image: '/mis_imágenes/makkao.png',
+      image: 'https://img.freepik.com/psd-gratis/menu-comida-plantilla-portada-redes-sociales-restaurante_120329-1342.jpg?semt=ais_hybrid&w=740',
       tech: ['WordPress', 'Elementor', 'WooCommerce', 'HTML', 'CSS', 'SEO', 'UX/UI', 'Php']
 ,
       github: null, // No tiene GitHub
@@ -18,7 +18,7 @@ const Projects = () => {
     {
        title: 'Bithalac – Suplementos y bienestar',
     description: 'Landing page responsive para una marca de suplementos, con diseño enfocado en identidad de marca, velocidad y posicionamiento SEO. Cuenta con secciones informativas, catálogo de productos, e integración de chatbot automatizado para asesoría vía WhatsApp.',
-    image: '/mis_imágenes/bithalac.png',
+    image: 'https://bithalac.proyectospitiusas.com/wp-content/uploads/2025/04/imagen-5.png',
     tech: ['WordPress', 'Elementor', 'WooCommerce', 'HTML', 'CSS', 'SEO', 'UX/UI', "chatbot"],
       github: null, // No tiene GitHub
       links: [
